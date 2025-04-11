@@ -65,10 +65,11 @@ const App = () => {
         className="w-20 h-20 mb-2"
       />
 
-      {/* Temperature & City */}
+      {/* Temperature*/}
       <h1 className="text-6xl font-bold mb-2">
         {temperature !== null ? `${temperature}°C` : "--"}
       </h1>
+       {/* City Name */}
       <h2 className="text-2xl font-semibold text-gray-300 mb-8">
         {cityName || "Search for a city"}
       </h2>
